@@ -25,10 +25,31 @@
     width: 20%;
 }
 .boxs{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    border:1px solid green;
-    height: 200px;
-    width: 200px;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Push button to the bottom */
+    align-items: center; /* Center align items */
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+}
+.cart{
+    background-color: #D4AF37; /* Gold color for a premium feel */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.cart:hover {
+    background-color: #B78E26; /* Darker gold on hover */
+}
+.price {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-right: 10px; /* Adds spacing between price & button */
 }
