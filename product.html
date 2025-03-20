@@ -23,19 +23,59 @@
     </div>
     <div class="products">
         <div class="left-box">
-            <div class="boxs box1"><button class="cart">add to cart</button><span><h4 class="price">5000.00$</h4></span></div>
-            <div class="boxs box2"><button class="cart">add to cart</button><span><h4 class="price">12000.00$</h4></span></div>
-            <div class="boxs box3"><button class="cart">add to cart</button><span><h4 class="price">4200.00$</h4></span></div>
-            <div class="boxs box4"><button class="cart">add to cart</button><span><h4 class="price">8000.00$</h4></span></div>
-            <div class="boxs box5"><button class="cart">add to cart</button><span><h4 class="price">8000.00$</h4></span></div>
-            <div class="boxs box6"><button class="cart">add to cart</button><span><h4 class="price">7999.00$</h4></span></div>
-            <div class="boxs box7"><button class="cart">add to cart</button><span><h4 class="price">9999.00$</h4></span></div>
-            <div class="boxs box8"><button class="cart">add to cart</button><span><h4 class="price">5999.00$</h4></span></div>
-            <div class="boxs box9"><button class="cart">add to cart</button><span><h4 class="price">19999.00$</h4></span></div>
+            <div class="boxs box1">
+                <h4 class="product-name">Luxury Leather Wallet</h4>
+                <span class="price">5000.00$</span>
+                <button class="cart" onclick="addToCart('Luxury Leather Wallet', '5000.00$')">Add to Cart</button>
+            </div>
+            <div class="boxs box2">
+                <h4 class="product-name">Classic Aviators</h4>
+                <span class="price">12000.00$</span>
+                <button class="cart" onclick="addToCart('Classic Aviators', '12000.00$')">Add to Cart</button>
+            </div>
+            <div class="boxs box3">
+                <h4 class="product-name">Stainless Steel Watch</h4>
+                <span class="price">4200.00$</span>
+                <button class="cart" onclick="addToCart('Stainless Steel Watch', '4200.00$')">Add to Cart</button>
+            </div>
+            <div class="boxs box4">
+                <h4 class="product-name">Smartphone</h4>
+                <span class="price">8000.00$</span>
+                <button class="cart" onclick="addToCart('Smartphone', '8000.00$')">Add to Cart</button>
+            </div>
+            <div class="boxs box5">
+                <h4 class="product-name">Gaming Headset</h4>
+                <span class="price">8000.00$</span>
+                <button class="cart" onclick="addToCart('Gaming Headset', '8000.00$')">Add to Cart</button>
+            </div>
+            <div class="boxs box6">
+                <h4 class="product-name">Smart TV</h4>
+                <span class="price">7999.00$</span>
+                <button class="cart" onclick="addToCart('Smart TV', '7999.00$')">Add to Cart</button>
+            </div>
+            <div class="boxs box7">
+                <h4 class="product-name">Wireless Earbuds</h4>
+                <span class="price">9999.00$</span>
+                <button class="cart" onclick="addToCart('Wireless Earbuds', '9999.00$')">Add to Cart</button>
+            </div>
+            <div class="boxs box8">
+                <h4 class="product-name">Bluetooth Speaker</h4>
+                <span class="price">5999.00$</span>
+                <button class="cart" onclick="addToCart('Bluetooth Speaker', '5999.00$')">Add to Cart</button>
+            </div>
+            <div class="boxs box9">
+                <h4 class="product-name">High-End Laptop</h4>
+                <span class="price">19999.00$</span>
+                <button class="cart" onclick="addToCart('High-End Laptop', '19999.00$')">Add to Cart</button>
+            </div>
         </div>
+    
         <div class="right-box">
+            <h3>🛒 Shopping Cart</h3>
+            <ul id="cart-list"></ul>
         </div>
     </div>
+    
     <!-- footer -->
     <div class="footer">
         <div class="footerContent">

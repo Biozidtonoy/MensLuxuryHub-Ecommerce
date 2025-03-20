@@ -1,41 +1,48 @@
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: border-box;
 }
-.products{
+
+.products {
     background-color: #f2e8c9;
     display: flex;
     height: 100vh;
     width: 100%;
 }
-.left-box{
+
+.left-box {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    grid-template-rows: repeat(3, 1fr); /* 3 rows */
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 2rem;
     border: 1px solid red;
     height: 100vh;
     width: 80%;
 }
-.right-box{
+
+.right-box {
     border: 1px solid blue;
     height: 100vh;
     width: 20%;
+    padding: 20px;
+    background: white;
+    overflow-y: auto;
 }
-.boxs{
+
+.boxs {
     border: 1px solid green;
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    justify-content: space-between; /* Push button to the bottom */
-    align-items: center; /* Center align items */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
     background-color: white;
     text-align: center;
 }
-.cart{
-    background-color: #D4AF37; /* Gold color for a premium feel */
+
+.cart {
+    background-color: #D4AF37;
     color: white;
     border: none;
     padding: 8px 12px;
@@ -44,84 +51,41 @@
     font-weight: bold;
     border-radius: 5px;
 }
+
 .cart:hover {
-    background-color: #B78E26; /* Darker gold on hover */
+    background-color: #B78E26;
 }
+
 .price {
     font-size: 16px;
-    color: #ffffff;
+    color: black;
     font-weight: bold;
-    margin-right: 10px; /* Adds spacing between price & button */
+    margin-bottom: 10px;
 }
-.box1{
-    background-image: url(/image/pexels-vlada-karpovich-4452504.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
+
+#cart-list {
+    list-style: none;
+    padding: 0;
 }
-.box2{
-    background-image: url(/image/pexels-czapp-arpad-3647289-12163561.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
 }
-.box3{
-    background-image: url(/image/pexels-ferarcosn-190819.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
+
+.remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
 }
-.box4{
-    background-image: url(/image/pexels-goumbik-928181.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
-}
-.box5{
-    background-image: url(/image/pexels-jessbaileydesign-735273.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
-}
-.box6{
-    background-image: url(/image/pexels-lalesh-147641.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
-}
-.box7{
-    background-image: url(/image/pexels-robert-bogdan-156165-910122.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
-}
-.box8{
-    background-image: url(/image/pexels-nitin-creative-46710.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
-}
-.box9{
-    background-image: url(/image/pexels-goumbik-915915.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
+
+.remove-btn:hover {
+    background-color: darkred;
 }

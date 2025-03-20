@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+h1{
+    font-size: 48px;
+    margin: 20px;
+}
+p{
+    font-size: 24px;
+    margin: 20px;
+}
+
+.social{
+    color: black;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.social-links{
+    margin: 30px;
+}
