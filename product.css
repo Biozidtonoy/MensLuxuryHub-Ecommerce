@@ -49,7 +49,79 @@
 }
 .price {
     font-size: 16px;
-    color: #333;
+    color: #ffffff;
     font-weight: bold;
     margin-right: 10px; /* Adds spacing between price & button */
+}
+.box1{
+    background-image: url(/image/pexels-vlada-karpovich-4452504.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+.box2{
+    background-image: url(/image/pexels-czapp-arpad-3647289-12163561.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+.box3{
+    background-image: url(/image/pexels-ferarcosn-190819.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+.box4{
+    background-image: url(/image/pexels-goumbik-928181.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+.box5{
+    background-image: url(/image/pexels-jessbaileydesign-735273.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+.box6{
+    background-image: url(/image/pexels-lalesh-147641.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+.box7{
+    background-image: url(/image/pexels-robert-bogdan-156165-910122.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+.box8{
+    background-image: url(/image/pexels-nitin-creative-46710.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+.box9{
+    background-image: url(/image/pexels-goumbik-915915.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
 }
