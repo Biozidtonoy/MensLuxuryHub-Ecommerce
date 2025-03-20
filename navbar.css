@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+a{
+    color:#D4AF37;
+    text-decoration : none ;
+    padding: 16px;
+}
+.navbar{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0D0D0D;
+}
+.logo{
+    padding: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    background-color: #a88f3e;
+    text-align: center;
+
+}
+.luxury{
+    font-weight:900px;
+    color: white;
+    margin-left:32px ;
+    margin-right:32px ;
+}
+.Men{
+    color: #FFFFFF
+}
+.hub{
+    color: white
+}
+.navlinks{
+    flex-grow: 1;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 20px;
+    
+}
+.home:hover,.product:hover,.contactus:hover{
+    text-decoration: underline rgb(228, 221, 220);
+}
